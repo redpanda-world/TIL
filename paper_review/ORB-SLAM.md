@@ -1,4 +1,4 @@
-# [논문 제목] ORB-SLAM: a Versatile and Accurate Monocular SLAM System
+# ORB-SLAM: a Versatile and Accurate Monocular SLAM System
 ## 1. Summary
 Contribution
 1. 
@@ -17,7 +17,9 @@ To realize it, Author uses ORB features.
 
 Loop closing: As the error accumulates, if camera comes back to the origin, it can map the point to strange point.
 To prevent this, loop closing is needed. This can move the strange point to origin.
-<img width="828" height="671" alt="image" src="https://github.com/user-attachments/assets/a1cd2b9a-36fd-4d73-bfc0-5af87240df18" />
+<img width="414" height="385" alt="image" src="https://github.com/user-attachments/assets/a1cd2b9a-36fd-4d73-bfc0-5af87240df18" />
+
+
 
 
 
