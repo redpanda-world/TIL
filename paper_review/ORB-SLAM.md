@@ -19,6 +19,9 @@ Loop closing: As the error accumulates, if camera comes back to the origin, it c
 To prevent this, loop closing is needed. This can move the strange point to origin.
 <img width="414" height="385" alt="image" src="https://github.com/user-attachments/assets/a1cd2b9a-36fd-4d73-bfc0-5af87240df18" />
 
+covisibility information: how many points are shared among keyframes. Each node is a keyframe and an edge
+between two keyframes exists if they share observations of the
+same map points (at least 15)
 
 
 
