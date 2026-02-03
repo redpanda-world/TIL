@@ -38,3 +38,19 @@ same map points (at least 15)
 ## 4. Code Implementation
 -
 
+
+# 알아봐야할것
+1. Epipolar Geometry (에피폴라 기하학)
+
+Fundamental Matrix vs Homography (이 둘의 차이와 용도)
+
+Essential Matrix (F행렬의 친척, 사실 더 중요함)
+
+2. RANSAC algorithm (랜색 알고리즘 원리)
+
+Outlier Rejection
+
+3.Chi-square test in Computer Vision (컴퓨터 비전에서의 카이제곱)
+
+Mahalanobis Distance
+
