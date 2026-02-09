@@ -1,56 +1,22 @@
 # ORB-SLAM: a Versatile and Accurate Monocular SLAM System
-## 1. Summary
-Contribution
-1. 
+## 1. Problem and Contribution
 
-System overview
--A. Feature choice
-Feature: where and what is it?
-
-Use same features are used to for place recognition to perform frame-rate relocalization and
-loop detection. Now that this system doesn't need to calculate features twice, it becomes efficient.
-To realize it, Author uses ORB features. 
-1. it is fast to cumpute and match
-2. it realizes same point as identical even if the view point changes. Even the points are far(wide baseline),
-   it can implement its own job well as the points are close.
-4. It has good place recognition performance
-
-Loop closing: As the error accumulates, if camera comes back to the origin, it can map the point to strange point.
-To prevent this, loop closing is needed. This can move the strange point to origin.
-<img width="414" height="385" alt="image" src="https://github.com/user-attachments/assets/a1cd2b9a-36fd-4d73-bfc0-5af87240df18" />
-
-covisibility information: how many points are shared among keyframes. Each node is a keyframe and an edge
-between two keyframes exists if they share observations of the
-same map points (at least 15)
+The prior SLAM algorithms are slow. 
+ORB-SLAM makes it possible to implement SLAM in real-time, maintaining performance comparable to existing models
 
 
 
+## 2. Idea
+ORB-SLAM tried to get it faster. To achieve it, it used
+- ORB features
+- Covisibility graph
+
+
+## 3. How can I use these ideas?
+- When my model is not fast enough, then I think I can use other methods to extract features. Also I can use covisibility or something retaining only important information.
+
+## 4. Others
 
 
 
-## 2. Key Method
-
-
-
-## 3. Critique
-- 이 부분은 좋은데, 실시간 처리(Real-time)에는 무거울 것 같음.
-
-## 4. Code Implementation
--
-
-
-# 알아봐야할것
-1. Epipolar Geometry (에피폴라 기하학)
-
-Fundamental Matrix vs Homography (이 둘의 차이와 용도)
-
-Essential Matrix (F행렬의 친척, 사실 더 중요함)
-
-2. RANSAC algorithm (랜색 알고리즘 원리)
-
-Outlier Rejection
-
-3.Chi-square test in Computer Vision (컴퓨터 비전에서의 카이제곱)
-
-Mahalanobis Distance
 
