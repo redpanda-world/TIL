@@ -20,7 +20,7 @@ like this, double underscore plays critical role in invisible world of python.
 
 # __ call __
 method __ call __ is invoked when we call a function.
-func() is equivalent to func.__ call __()
+In Python, functions are objects. But usually, we implement __ call __ in a class to make its instances behave like functions (Callable Objects).
 Because function is class as well.
 
 
