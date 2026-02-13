@@ -24,7 +24,7 @@ In Python, functions are objects. But usually, we implement __ call __ in a clas
 Because function is class as well.
 
 
-# How does it used in ResNet?
+# How is it used in ResNet?
 nn.Module and ResNet look like this internally with simplifying:
 ```python
 class nn.Module():
