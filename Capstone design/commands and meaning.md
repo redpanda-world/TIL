@@ -5,8 +5,10 @@ This command can show us the information of internet connection like below
 
 flags=4163<UP,BROADCAST,RUNNING,MULTICAST>
 Up, running: this wifi is running normally.
-inet 172.30.1.20: My current wifi address. This address is changeable depending on where it is connected. 
+inet 172.30.1.20: My device's assigned IPv4 address within the local network. This address is changeable depending on where it is connected. 
 ether: My device's (laptop or desktop...) unique number
+
+__So whenever I change ip address, I have to change this. As I set up initial configuration, I suffered from communication caused by this__ 
 
 ### $ nano ~/.bashrc
 nano: this means text editor.
@@ -18,7 +20,9 @@ rc:it stands for run commands
 <img width="446" height="43" alt="image" src="https://github.com/user-attachments/assets/6ad4f62b-338f-4228-8bb4-70d8638b5952" />
 
 export ROS_MASTER_URI: Master's address
-export ROS_HOSTNAME:Advertised Master's address to nodes. when nodes want to communicate with Master, they use this information.
+export ROS_HOSTNAME:The IP address of this specific machine. It tells other nodes (and the Master) how to reach me.
+
+__Each device(laptop and robot) need its own address. So after implementing nano ~./bashrc, these last two lines should be revised to make sure that proper ip address is written.__
 
 
 ### source ~/.bashrc
