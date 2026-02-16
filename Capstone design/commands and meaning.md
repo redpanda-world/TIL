@@ -14,8 +14,12 @@ nano: this means text editor.
 bash:this is name of file. Whenever you open terminal computer implements this file. 
 rc:it stands for run commands
 <img width="446" height="43" alt="image" src="https://github.com/user-attachments/assets/6ad4f62b-338f-4228-8bb4-70d8638b5952" />
-export ROS_MASTER_URI:
-export ROS_HOSTNAME:
+export ROS_MASTER_URI: Master's address
+export ROS_HOSTNAME:Advertised Master's address to nodes. when nodes want to communicate with Master, they use this information.
+
+
+### source ~/.bashrc
+This is just for letting computer know the change. Normally, if a file is revised, computer don't realize it until the programm restarts. This command make it does.
 
 
 
