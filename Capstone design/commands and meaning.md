@@ -13,8 +13,8 @@ __So whenever I change ip address, I have to change this. As I set up initial co
 ### $ nano ~/.bashrc
 nano: this means text editor.
 ~:this is shortcut for /home/username
-.:it means fild which is followed by dot is hidden. If I save a file with dot at the very beginning, it is also treated as hidden file.
-bash:this is name of file. Whenever you open terminal computer implements this file. 
+.:it means file which is followed by dot is hidden. If I save a file with dot at the very beginning, it is also treated as hidden file.
+bash:this is name of file. Whenever you open terminal computer executes this file. 
 rc:it stands for run commands
 
 <img width="446" height="43" alt="image" src="https://github.com/user-attachments/assets/6ad4f62b-338f-4228-8bb4-70d8638b5952" />
@@ -22,11 +22,11 @@ rc:it stands for run commands
 export ROS_MASTER_URI: Master's address
 export ROS_HOSTNAME:The IP address of this specific machine. It tells other nodes (and the Master) how to reach me.
 
-__Each device(laptop and robot) need its own address. So after implementing nano ~./bashrc, these last two lines should be revised to make sure that proper ip address is written.__
+__Each device(laptop and robot) need its own address. So after implementing nano ~/.bashrc, these last two lines should be revised to make sure that proper ip address is written.__
 
 
 ### source ~/.bashrc
-This is just for letting computer know the change. Normally, if a file is revised, computer don't realize it until the programm restarts. This command make it does.
+This is just for letting computer know the change. Normally, if a file is revised, the system doesn't realize it until the programm restarts. This command make it does.
 
 
 
