@@ -1,5 +1,6 @@
 ### $ ifconfig 
 This command can show us the information of internet connection like below
+
 <img width="362" height="170" alt="image" src="https://github.com/user-attachments/assets/2eef8c08-0ae9-4a15-b0c3-de959075aa8d" />
 
 flags=4163<UP,BROADCAST,RUNNING,MULTICAST>
@@ -13,7 +14,9 @@ nano: this means text editor.
 .:it means fild which is followed by dot is hidden. If I save a file with dot at the very beginning, it is also treated as hidden file.
 bash:this is name of file. Whenever you open terminal computer implements this file. 
 rc:it stands for run commands
+
 <img width="446" height="43" alt="image" src="https://github.com/user-attachments/assets/6ad4f62b-338f-4228-8bb4-70d8638b5952" />
+
 export ROS_MASTER_URI: Master's address
 export ROS_HOSTNAME:Advertised Master's address to nodes. when nodes want to communicate with Master, they use this information.
 
