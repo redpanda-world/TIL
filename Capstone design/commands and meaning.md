@@ -1,6 +1,6 @@
 ### $ ifconfig 
 This command can show us the information of internet connection like below
-<img width="725" height="341" alt="image" src="https://github.com/user-attachments/assets/2eef8c08-0ae9-4a15-b0c3-de959075aa8d" />
+<img width="362" height="170" alt="image" src="https://github.com/user-attachments/assets/2eef8c08-0ae9-4a15-b0c3-de959075aa8d" />
 
 flags=4163<UP,BROADCAST,RUNNING,MULTICAST>
 Up, running: this wifi is running normally.
