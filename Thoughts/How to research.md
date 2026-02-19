@@ -15,6 +15,9 @@ This hit me hard. The scattered pieces of my knowledge finally started to connec
 
 
 ## What is research?
+Research is fundamentally driven by curiosity. Ideally, it begins with imagination. Imagination is where the true value of the "bottom-up" approach emerges: it is the organic combination of existing knowledge, which is the very origin of creation. For instance, I might read papers on SLAM and LLMs simply because they look interesting or are necessary for my work. It is only natural, then, to imagine combining them, resulting in something like Semantic SLAM. It feels akin to observing the historical intersection of geometry and algebra, which gave birth to calculus. Research, in this sense, is the act of making that imagination real—connecting existing knowledge and then rummaging through the vast sea of information (top-down) to bring it to life.
+
+But sometimes, research doesn't start with a grand spark of imagination. As my professor pointed out, it often starts in the trenches. It begins by cloning a repository, running the existing code in various environments, and watching it break. When you test an algorithm in a new setting, it frequently reveals defects or edge cases that the original authors didn't account for. Identifying these specific problems, analyzing why the code fails, and figuring out how to overcome those limitations—that is also the very essence of research. It is the process of finding the gap between a paper's claim and the harsh reality, and bridging that gap.
 
 # How to get through my problem?
 
