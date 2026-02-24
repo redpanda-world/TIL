@@ -34,10 +34,8 @@ For instance, if you are researching SLAM to map a stark, barren desert, you onl
 That said, studying from scratch still holds value. Sometimes, ideas born from pure, undirected curiosity spark true innovation. Here is my 3-step action plan to balance the two:
 
 >### 1. Define the Problem (Top-Down Trigger)
->Everything starts with a clear problem, driven by pure curiosity or discovered through hands-on experiments (like my >TurtleBot capstone).
-
->### 2. Learn the Prerequisites (Confined Bottom-Up)
->Once the goal is set, use tools like AI (Gemini/ChatGPT) or research papers to map out exactly what needs to be learned. >Then, study those specific prerequisites deeply. This is a "confined bottom-up" approach—digging deep, but only within the >strict boundaries of the problem.
-
+>Everything starts with a clear problem, driven by pure curiosity or discovered through hands-on experiments 
+> ### 2. Learn the Prerequisites (Confined Bottom-Up)
+>Once the goal is set, use tools like AI (Gemini/ChatGPT) or research papers to map out exactly what needs to be learned. Then, study those specific prerequisites deeply. This is a "confined bottom-up" approach—digging deep, but only within the strict boundaries of the problem.
 >### 3. Study the Basics Regularly (Pure Bottom-Up)
->Allocate time for purely curiosity-driven study without immediate purpose. Read broadly—whether it's machine learning, >physics, topology, or random papers. Building this robust, diverse groundwork is vital. Because groundbreaking ideas come >from connecting the unconnected, this habit will spark latent connections and lead to unexpected breakthroughs one day.
+>Allocate time for purely curiosity-driven study without immediate purpose. Read broadly—whether it's machine learning, physics, topology, or random papers. Building this robust, diverse groundwork is vital. Because groundbreaking ideas come from connecting the unconnected, this habit will spark latent connections and lead to unexpected breakthroughs one day.
