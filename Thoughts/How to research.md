@@ -19,25 +19,25 @@ Research is fundamentally driven by curiosity. Ideally, it begins with imaginati
 
 But sometimes, research doesn't start with a grand spark of imagination. As my professor pointed out, it often starts in the trenches. It begins by cloning a repository, running the existing code in various environments, and watching it break. When you test an algorithm in a new setting, it frequently reveals defects or edge cases that the original authors didn't account for. Identifying these specific problems, analyzing why the code fails, and figuring out how to overcome those limitations—that is also the very essence of research. It is the process of finding the gap between a paper's claim and the harsh reality, and bridging that gap.
 
-# How to get through my problem?
-The fundamental reason causes troubles is my thought that is to research, then absorb everything. And try to study without purpose. The power of study with purpose is enormous. If ones study without intends to make robot, projects, then the connection of knowledge gets weak. Otherwise, it gets strong sticking to project and know how is the knowledge used. 
+## How to get through my problem?
+The fundamental cause of my struggles was the misconception that to do research, I must first absorb everything. Studying without a clear purpose is a trap. The power of goal-oriented learning is enormous. When you study without the intent to build a robot or complete a project, the connections between fragmented pieces of knowledge remain weak. Conversely, when your learning is anchored to a specific project, you understand exactly how and why that knowledge is used, making it stick.
 
-So the key to get through this problem is project, goal based learning called Top-down method.
+Therefore, the key to overcoming my problem is project-driven, goal-oriented learning: the Top-Down method.
 
 ## How can I balance top-down and bottom-up?
-As I mentioned, I don't think that bottom-up is useless. Somethimes it'd rather dig into from scrach. Until high school, 80% of bottom up is ideal in my opinion. Because what they learn until high school is general such as calculus, basic physics, etc. And for high school student to choose their career path, being exposed to various subjects is important.
+I am not saying the bottom-up approach is entirely useless. In my opinion, devoting 80% of your effort to bottom-up learning is ideal—until high school. The curriculum at that stage consists of general, foundational knowledge like calculus and basic physics. For students figuring out their career paths, broad exposure is crucial.
 
-But people for me who want to research, this should be avoided. It is about efficiency. To research, for the reasone that it could be used one day, it's no way to study everything. Top-down method provides clear path to stduy. For example, if someone research on SLAM to map stark, barren desert, maybe optimization methods like BA, sensor like IMU and related things(DoF, Epipolar geometry etc), other papers covered similar enviornment even though they are not about SLAM. To do this, we don't have to study others that we've studied in deep learning, Algorithm, and Computer architecture classes!
+However, for someone like me who wants to dive into professional research, relying solely on this method is a disaster for efficiency. You cannot study everything "just in case" it might be useful someday. The top-down method provides a clear, laser-focused path.
 
-It doesn't mean that we don't have to study from scratch. Somethimes, ideas popped out by this way shed light on enovation. This is my action plans.
+For instance, if you are researching SLAM to map a stark, barren desert, you only need to dive into specific topics: optimization methods like Bundle Adjustment (BA), IMU sensor fusion, and related geometric concepts (DoF, Epipolar Geometry). To do this, you don't need to simultaneously re-study entire courses in deep learning, algorithms, or computer architecture just to feel "prepared."
 
-> ### 1. Define my problems.
-> This can be done by curiosity, or experiments, as I mentioned
-> ### 2. Learn related things
-> Gemini or GPT will teach you what to study. And study them as we've done with confined bottom-up method(bottom-up of confined the range to study)
-> ### 3. Study basis from scratch regularly.
-> This is pure bottom-up method. We don't have any purpose, but just study that catch your eyes. You can study machine learning, physics, topology, or any papers etc. And read a lot of book. You can study because it looks neccesary or interesting, no matter what. It could make the robust ground. Because ideas come from connection, It could burst latent connection one day.
+That said, studying from scratch still holds value. Sometimes, ideas born from pure, undirected curiosity spark true innovation. Here is my 3-step action plan to balance the two:
 
-## Grounds
+>### 1. Define the Problem (Top-Down Trigger)
+>Everything starts with a clear problem, driven by pure curiosity or discovered through hands-on experiments (like my >TurtleBot capstone).
 
-# Then what actions should I take?
+>### 2. Learn the Prerequisites (Confined Bottom-Up)
+>Once the goal is set, use tools like AI (Gemini/ChatGPT) or research papers to map out exactly what needs to be learned. >Then, study those specific prerequisites deeply. This is a "confined bottom-up" approach—digging deep, but only within the >strict boundaries of the problem.
+
+>### 3. Study the Basics Regularly (Pure Bottom-Up)
+>Allocate time for purely curiosity-driven study without immediate purpose. Read broadly—whether it's machine learning, >physics, topology, or random papers. Building this robust, diverse groundwork is vital. Because groundbreaking ideas come >from connecting the unconnected, this habit will spark latent connections and lead to unexpected breakthroughs one day.
