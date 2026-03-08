@@ -2,7 +2,7 @@
 ## 1. Problem and Contribution
 People are great navigator thanks to their ability to build cognitive map.
 The problem of models, which navigate using natural language is that they can't generalize to unseen instructions or require copious amount of data.
-With incorporate VLM with navigation model, these promlems seem to be disappeared. VLM doesn't require dataset and can generalize.
+With incorporate VLM with navigation model, these problems seem to be disappeared. VLM doesn't require dataset and can generalize.
 However there are other problems. it struggles
 1. to recognize the same objects as same objects based on where the robot is seeing
 2. and localize spatial goal like 'between sofa and TV'.
@@ -27,7 +27,7 @@ And stack embedding on the each pixels.
 Key idea: We can convert human text to embedding by applying LSeg and make matrix . Also we have map embedding &Q&. we can measure similarity by calculating $$\mathbf{S} = \mathbf{Q} \cdot \mathbf{E}^T$$. S indicates how likely this pixel belongs to the class
 
 ### C. Generating Open-Vocabulary Obstacle Maps
-Key idea: It setted potential obstacle list in advance based on embodiment.
+Key idea: It set potential obstacle list in advance based on embodiment.
 
 ### D. Zero-Shot Spatial Goal Navigation from Language
 Key idea: Convert natural language to language that robot can understand using LLM.
@@ -40,4 +40,9 @@ Key idea: Convert natural language to language that robot can understand using L
 ## 4. Others
 ### Limitation
 As I run this model, I couldn't even find multiple objects. It can find just one object by typing 'chair', or'sofa' but can't if I type 'sofa and chair' 
-And even though  I succeed to find a singe object, its performand doesn't seem like great. It notes unidentified area as sofa, or chair.
+And even though  I succeed to find a singe object, its performance doesn't seem like great. It notes unidentified area as sofa, or chair.
+
+### The reason of this Limitation
+I think it's because of the way that it calculate the similarity.
+$$\mathbf{S} = \mathbf{Q} \cdot \mathbf{E}^T$$
+As the paper says, Q, E have just a word. So the similarity pluged if I type multiple objects.
