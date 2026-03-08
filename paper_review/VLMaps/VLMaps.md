@@ -35,7 +35,7 @@ Key idea: Convert natural language to language that robot can understand using L
 ## 3. How can I use these ideas?
 1. I can combine LLM model to translate natural language to robot language.
   This could be general. If I don't consider the amount of time to operate, I can combine it to any model like ORB-SLAM.  
-2. I can measure similarity by compute inner product.
+2. I can measure similarity by computing inner product.
    This is often used like attention. If I have to work on project of object detection, I guess I can apply this to decrease the amount of time to calculate.
 ## 4. Others
 ### Limitation
