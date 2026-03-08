@@ -45,4 +45,4 @@ And even though  I succeed to find a singe object, its performance doesn't seem 
 ### The reason of this Limitation
 I think it's because of the way that it calculate the similarity.
 $$\mathbf{S} = \mathbf{Q} \cdot \mathbf{E}^T$$
-As the paper says, Q, E have just a word. So the similarity pluged if I type multiple objects.
+As the paper says, Q, E have just a word. So the similarity drops if I type multiple objects.
