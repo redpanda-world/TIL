@@ -18,7 +18,13 @@ The key idea of VLMaps is to fuse pretrained visual language features with 3D re
 Author fused LSeg embedding with their corresponding 3D map locations. Then it doesn't need to label the segmentation manually.
 <img width="745" height="265" alt="image" src="https://github.com/user-attachments/assets/1a5430f6-1bbf-4b20-b2b9-b7d45417025f" />
 
+The pipeline consist of four steps.
+### A. Building a Visual-Language Map
+kEY idea: Convert pixel coordinate to world coordinate and project world coordinate to plane to match it to grid map.
+And stack embedding on the each pixels.
 
+### B. Localizing Open-Vocabulary Landmarks   
+Key idea: We can convert human text to embedding by applying LSeg and make matrix . Also we have map embedding &Q&. we can measure similarity by calculating $$\mathbf{S} = \mathbf{Q} \cdot \mathbf{E}^T$$. S indicates how likely this pixel belongs to the class
 
 ## 3. How can I use these ideas?
 
